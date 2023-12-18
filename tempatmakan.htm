@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+
+    <div class="header">
+        <h1 class="video-heading">
+          <video width="100%" height="300" controls autoplay muted>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+          
+          <span>Healing Spot</span>
+        </h1>
+      </div>
+      
+    <div class="header">
+    
+      <div class="topnav">
+        <a href="pengenalan.htm">Pengenalan</a>
+        <div class="dropdown">
+          <button class="dropbtn">Tempat Makan 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Kafe Kiri Kanan</a>
+            <a href="#">Mr. Plate</a>
+            <a href="#">Kopi Saigon</a>
+            <a href="#">9% Cafe</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn">Tempat Rekreasi 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Pantai Perpat</a>
+            <a href="#">Sungai Lurus</a>
+            <a href="#">Tasik Y</a>
+            <a href="#">Rooftop</a>
+          </div>
+        </div> 
+        <a href="#">Kongsikan Tempat</a>
+        <a href="#">Hubungi Kami</a>
+      </div>
+      
+
+  
+<h2 style="text-align:center">KAFE KIRI KANAN, BARU PAHAT</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="file:///C:/Users/pc/Documents/A/1d285686-e24b-46ef-9b18-fa143769dd23.jpg" style="width:49.4%; margin-right: 200%;"  >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="file:///C:/Users/pc/Documents/A/07f8e13d-0995-4e79-b1da-e8e3e84407c1.jpg" style="width:49.4%; margin-right: 200%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="file:///C:/Users/pc/Documents/A/7464b53c-e696-4540-9a8b-7bf2c3a4f007.jpg" style="width:49.4%; margin-right: 200%;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="file:///C:/Users/pc/Documents/A/99308125-f588-4d71-bcf2-907778123655.jpg" style="width:49.4%; margin-right: 200%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="file:///C:/Users/pc/Documents/A/dce9fa21-4d0d-4cb3-a6cb-1be6b6479fb4.jpg" style="width:49.4%; margin-right: 200%;">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="file:///C:/Users/pc/Documents/A/07f8e13d-0995-4e79-b1da-e8e3e84407c1%20-%20Copy.jpg" style="width:49.4%; margin-right: 200%;">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+  
+    </div>
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="file:///C:/Users/pc/Documents/A/1d285686-e24b-46ef-9b18-fa143769dd23.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="file:///C:/Users/pc/Documents/A/07f8e13d-0995-4e79-b1da-e8e3e84407c1.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="file:///C:/Users/pc/Documents/A/7464b53c-e696-4540-9a8b-7bf2c3a4f007.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="file:///C:/Users/pc/Documents/A/99308125-f588-4d71-bcf2-907778123655.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="file:///C:/Users/pc/Documents/A/dce9fa21-4d0d-4cb3-a6cb-1be6b6479fb4.jpg" style="width:100%" onclick="currentSlide(5)" alt="">
+    </div> 
+    <div class="column">
+        <img class="demo cursor" src="file:///C:/Users/pc/Documents/A/07f8e13d-0995-4e79-b1da-e8e3e84407c1%20-%20Copy.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
+      </div> 
+
+      <div class="row">
+        <div class="column right">
+          <h1>Jenis Perkhidmatan: Makan Dalam . Bawa Pulang<br><br>
+            Alamat: 92, Jln Rahmat, Kampung Pegawai, 83000 Batu Pahat, Johor<br><br>
+            Waktu Operasi: Setiap Hari 9.30 am - 10.00 pm <br><br>
+            Nombor Untuk Dihubungi: 016-770 7522</h1>
+          
+        </div>
+      
+        <!-- Other content -->
+      </div>
+       
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>
+
+
